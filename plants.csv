@@ -1,0 +1,4 @@
+plant_id,name,city,lat,lon,capacity_units,unit_prod_cost
+PLANT_MW,Midwest Manufacturing Hub,"Chicago, IL",41.8781,-87.6298,620000,11.2
+PLANT_SE,Southeast Manufacturing Hub,"Atlanta, GA",33.749,-84.388,480000,10.75
+PLANT_W,West Coast Manufacturing Hub,"Reno, NV",39.5296,-119.8138,400000,12.05

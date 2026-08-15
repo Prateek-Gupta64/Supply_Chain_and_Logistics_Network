@@ -1,0 +1,218 @@
+{
+  "base_case": {
+    "capex": 8400000.0,
+    "annual_pretax_savings": 2763495.186817348,
+    "annual_after_tax_cash_flow": 2301856.3419811847,
+    "npv": 553418.4286412748,
+    "irr_pct": 11.507126756192799,
+    "payback_year": 4,
+    "roi_5yr_pct": 37.015258451260976,
+    "years": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "cash_flow_schedule": {
+    "years": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cash_flows": [
+      -8400000.0,
+      2301856.3419811847,
+      2301856.3419811847,
+      2301856.3419811847,
+      2301856.3419811847,
+      2301856.3419811847
+    ],
+    "cumulative": [
+      -8400000.0,
+      -6098143.658018815,
+      -3796287.3160376307,
+      -1494430.974056446,
+      807425.3679247387,
+      3109281.7099059233
+    ]
+  },
+  "optimization_result": {
+    "status": "Optimal",
+    "total_annual_cost": 12735537.618645055,
+    "dcs_opened": [
+      "DC_02",
+      "DC_05",
+      "DC_06",
+      "DC_07",
+      "DC_08"
+    ],
+    "num_dcs_opened": 5,
+    "cost_breakdown": {
+      "fixed_facility_cost": 10290000,
+      "inbound_transport_cost": 492185.047,
+      "outbound_transport_cost": 1011981.603,
+      "handling_cost": 800801.02,
+      "cycle_stock_cost": 131277.38334760087,
+      "safety_stock_cost": 9292.56529745296
+    },
+    "flows_plant_dc": [
+      {
+        "plant_id": "PLANT_MW",
+        "dc_id": "DC_02",
+        "units": 239296.0
+      },
+      {
+        "plant_id": "PLANT_MW",
+        "dc_id": "DC_05",
+        "units": 163122.0
+      },
+      {
+        "plant_id": "PLANT_SE",
+        "dc_id": "DC_06",
+        "units": 110623.0
+      },
+      {
+        "plant_id": "PLANT_W",
+        "dc_id": "DC_07",
+        "units": 33684.0
+      },
+      {
+        "plant_id": "PLANT_W",
+        "dc_id": "DC_08",
+        "units": 113724.0
+      }
+    ],
+    "flows_dc_customer": [
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_NYC",
+        "units": 34952.0
+      },
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_CHI",
+        "units": 36174.0
+      },
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_PHL",
+        "units": 32390.0
+      },
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_COL",
+        "units": 40447.0
+      },
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_IND",
+        "units": 32918.0
+      },
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_BOS",
+        "units": 26455.0
+      },
+      {
+        "dc_id": "DC_02",
+        "customer_id": "CUST_DET",
+        "units": 35960.0
+      },
+      {
+        "dc_id": "DC_05",
+        "customer_id": "CUST_HOU",
+        "units": 33349.0
+      },
+      {
+        "dc_id": "DC_05",
+        "customer_id": "CUST_SAT",
+        "units": 21223.0
+      },
+      {
+        "dc_id": "DC_05",
+        "customer_id": "CUST_DAL",
+        "units": 36876.0
+      },
+      {
+        "dc_id": "DC_05",
+        "customer_id": "CUST_AUS",
+        "units": 17349.0
+      },
+      {
+        "dc_id": "DC_05",
+        "customer_id": "CUST_MSP",
+        "units": 19354.0
+      },
+      {
+        "dc_id": "DC_05",
+        "customer_id": "CUST_STL",
+        "units": 34971.0
+      },
+      {
+        "dc_id": "DC_06",
+        "customer_id": "CUST_JAX",
+        "units": 25763.0
+      },
+      {
+        "dc_id": "DC_06",
+        "customer_id": "CUST_CLT",
+        "units": 31571.0
+      },
+      {
+        "dc_id": "DC_06",
+        "customer_id": "CUST_ATL",
+        "units": 19329.0
+      },
+      {
+        "dc_id": "DC_06",
+        "customer_id": "CUST_MIA",
+        "units": 33960.0
+      },
+      {
+        "dc_id": "DC_07",
+        "customer_id": "CUST_PHX",
+        "units": 17070.0
+      },
+      {
+        "dc_id": "DC_07",
+        "customer_id": "CUST_DEN",
+        "units": 16614.0
+      },
+      {
+        "dc_id": "DC_08",
+        "customer_id": "CUST_LAX",
+        "units": 22024.0
+      },
+      {
+        "dc_id": "DC_08",
+        "customer_id": "CUST_SD",
+        "units": 40523.0
+      },
+      {
+        "dc_id": "DC_08",
+        "customer_id": "CUST_SJ",
+        "units": 19094.0
+      },
+      {
+        "dc_id": "DC_08",
+        "customer_id": "CUST_SF",
+        "units": 16582.0
+      },
+      {
+        "dc_id": "DC_08",
+        "customer_id": "CUST_SEA",
+        "units": 15501.0
+      }
+    ],
+    "demand_multiplier": 1.0,
+    "baseline_annual_cost": 15499032.805462403,
+    "savings_annual": 2763495.186817348,
+    "savings_pct": 17.830113798090647
+  }
+}

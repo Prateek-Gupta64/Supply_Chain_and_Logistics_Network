@@ -1,0 +1,11 @@
+parameter,value,notes
+planning_horizon_years,5.0,Strategic evaluation window for NPV/ROI
+discount_rate_wacc,0.09,Weighted-average cost of capital used as discount rate
+holding_cost_rate_annual,0.22,"Annual holding cost as % of unit value (capital, insurance, obsolescence, storage)"
+avg_unit_value,42.5,Average finished-good value used for inventory carrying cost
+order_cost_per_shipment,185.0,Fixed cost per replenishment order/shipment (EOQ inventory routing input)
+safety_stock_z_score,1.65,z-score for ~95% cycle service level (safety stock sizing)
+corporate_tax_rate,0.24,Effective corporate tax rate for NPV after-tax cash flows
+capex_per_new_dc,4200000.0,One-time capital expenditure to commission a new/upgraded DC
+depreciation_years,10.0,Straight-line depreciation life for new DC capex
+baseline_num_dcs_open,8.0,Current-state network: all 8 candidate DCs operating (pre-optimization baseline)
